@@ -1,0 +1,27 @@
+.block{
+    background-color: rgba($color: #000000, $alpha: 0.2);
+    height: 170px;
+    width: 120px;
+    border-radius: 10px;
+
+    .date{
+        color: white;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .image{
+        background-repeat: no-repeat;
+        height: 80px;
+        width: 120px;
+        margin: 0 auto;
+    }
+
+    .description{
+        color: white;
+        margin: 0 auto;
+        width: 50px;
+        font-size: 18px;
+    }
+
+}
